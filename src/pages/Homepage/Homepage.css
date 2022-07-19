@@ -1,0 +1,117 @@
+h1,
+h2 {
+  color: var(--text-color);
+}
+h2 {
+  font-weight: 400;
+}
+
+form {
+  width: 100%;
+  text-align: left;
+}
+input {
+  height: 1.5rem;
+  width: 40%;
+}
+
+.completed-icon-container {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+}
+.btn-submit {
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 2rem;
+  height: 2.1rem;
+  width: 15%;
+}
+.add-task-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.add-task-section > h2 {
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.add-task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.todo-list-display > h2 {
+  font-size: 1rem;
+  text-align: left;
+}
+.todo-card-number {
+  color: var(--text-color);
+}
+.task-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.task-card {
+  background-color: var(--task-card);
+  border-radius: 10px;
+  height: 10rem;
+  width: 20rem;
+  margin: 2rem;
+}
+
+.task-title {
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  height: 50%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.division {
+  background-color: var(--dividing-line);
+  height: 1px;
+  width: 100%;
+}
+
+.task-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50%;
+}
+
+.btn-complete {
+  background-color: var(--button-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  width: 60%;
+  cursor: pointer;
+}
+
+.btn-incomplete {
+  background-color: var(--task-card);
+  color: var(--button-delete);
+  text-align: left;
+}
+
+.btn-delete {
+  background-color: var(--task-card);
+  border: none;
+  color: var(--button-delete);
+  cursor: pointer;
+}

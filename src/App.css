@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #171717;
+  margin: 2rem 2rem 2rem 4rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --background-color: #171717;
+  --text-color: #ffffff;
+  --button-color: #c620a7;
+  --task-card: #2f2f2f;
+  --task-card-completed: #202020;
+  --dividing-line: #5c5c5c;
+  --button-delete: #afafaf;
+  --green-color: #7ab530;
+}
